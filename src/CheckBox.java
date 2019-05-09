@@ -24,7 +24,7 @@ public class CheckBox
 		
 		int size = chrome.findElements(By.xpath("//input[@type='checkbox']")).size();
 		System.out.println(size);
-		
+		System.out.println("nik change 1");
 		chrome.close();
 		
 
